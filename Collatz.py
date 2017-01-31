@@ -46,10 +46,10 @@ def collatz_eval (n) :
 def cycle_length (n) :
     c = 1
     while n > 1:
-        if (n % 2) == 0:
-            n = (n // 2)
+        if n & 1 == 0:
+            n = (n >> 1)
         else:
-            n = (3 * n) + 1
+            n = (n << 1) + n + 1
         c += 1
     assert c > 0
     return c
