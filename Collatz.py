@@ -10,6 +10,8 @@
 # Glenn P. Downing
 # ---------------------------
 
+from queue import Queue
+
 # ------------
 # collatz_read
 # ------------
@@ -28,6 +30,10 @@ def collatz_read (r) :
 # collatz_eval
 # ------------
 
+cache = dict()
+queue = Queue()
+max = 0
+
 def collatz_eval (n) :
     """
     n the end of the range [1, n], inclusive
@@ -36,9 +42,9 @@ def collatz_eval (n) :
     # <your code>
     num = 0
     max = 0
-    for i in range(1, n + 1):
+    for i in reversed(range(1, n + 1)):
         c = cycle_length(i)
-        if (c >= max):
+        if (c > max):
             max = c
             num = i
     return num
