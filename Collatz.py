@@ -45,17 +45,6 @@ def collatz_eval (n) :
             return cache[counter - 1]
         counter += 1
 
-def cycle_length (n) :
-    c = 1
-    while n > 1:
-        if n & 1 == 0:
-            n = (n >> 1)
-        else:
-            n = (n << 1) + n + 1
-        c += 1
-    assert c > 0
-    return c
-
 # -------------
 # collatz_print
 # -------------
