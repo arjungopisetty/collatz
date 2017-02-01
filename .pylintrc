@@ -60,7 +60,7 @@ confidence=
 # --enable=similarities". If you want to run only the classes checker, but have
 # no Warning level messages displayed, use"--disable=all --enable=classes
 # --disable=W"
-disable=unichr-builtin,old-division,coerce-method,indexing-exception,old-ne-operator,old-raise-syntax,unpacking-in-except,long-builtin,useless-suppression,suppressed-message,basestring-builtin,getslice-method,backtick,dict-iter-method,long-suffix,oct-method,execfile-builtin,old-octal-literal,reload-builtin,range-builtin-not-iterating,standarderror-builtin,delslice-method,apply-builtin,zip-builtin-not-iterating,file-builtin,print-statement,reduce-builtin,input-builtin,next-method-called,intern-builtin,cmp-method,xrange-builtin,import-star-module-level,setslice-method,parameter-unpacking,map-builtin-not-iterating,locally-disabled,using-cmp-argument,filter-builtin-not-iterating,cmp-builtin,hex-method,metaclass-assignment,coerce-builtin,unicode-builtin,raising-string,buffer-builtin,no-absolute-import,raw_input-builtin,dict-view-method,nonzero-method,round-builtin
+disable=unicode-builtin,useless-suppression,dict-view-method,file-builtin,execfile-builtin,filter-builtin-not-iterating,round-builtin,import-star-module-level,old-ne-operator,raw_input-builtin,backtick,standarderror-builtin,basestring-builtin,indexing-exception,parameter-unpacking,metaclass-assignment,hex-method,reload-builtin,print-statement,old-raise-syntax,suppressed-message,long-suffix,cmp-builtin,old-octal-literal,long-builtin,old-division,cmp-method,coerce-builtin,intern-builtin,delslice-method,apply-builtin,zip-builtin-not-iterating,xrange-builtin,nonzero-method,getslice-method,no-absolute-import,next-method-called,setslice-method,using-cmp-argument,range-builtin-not-iterating,raising-string,dict-iter-method,locally-disabled,map-builtin-not-iterating,unpacking-in-except,coerce-method,input-builtin,oct-method,reduce-builtin,buffer-builtin,unichr-builtin
 
 
 [REPORTS]
@@ -195,41 +195,11 @@ name-group=
 # Include a hint for the correct naming format with invalid-name
 include-naming-hint=no
 
-# Regular expression matching correct module names
-module-rgx=(([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$
-
-# Naming hint for module names
-module-name-hint=(([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$
-
-# Regular expression matching correct method names
-method-rgx=[a-z_][a-z0-9_]{2,30}$
-
-# Naming hint for method names
-method-name-hint=[a-z_][a-z0-9_]{2,30}$
-
-# Regular expression matching correct function names
-function-rgx=[a-z_][a-z0-9_]{2,30}$
-
-# Naming hint for function names
-function-name-hint=[a-z_][a-z0-9_]{2,30}$
-
-# Regular expression matching correct attribute names
-attr-rgx=[a-z_][a-z0-9_]{2,30}$
-
-# Naming hint for attribute names
-attr-name-hint=[a-z_][a-z0-9_]{2,30}$
-
 # Regular expression matching correct class names
 class-rgx=[A-Z_][a-zA-Z0-9]+$
 
 # Naming hint for class names
 class-name-hint=[A-Z_][a-zA-Z0-9]+$
-
-# Regular expression matching correct variable names
-variable-rgx=[a-z_][a-z0-9_]{2,30}$
-
-# Naming hint for variable names
-variable-name-hint=[a-z_][a-z0-9_]{2,30}$
 
 # Regular expression matching correct argument names
 argument-rgx=[a-z_][a-z0-9_]{2,30}$
@@ -237,17 +207,47 @@ argument-rgx=[a-z_][a-z0-9_]{2,30}$
 # Naming hint for argument names
 argument-name-hint=[a-z_][a-z0-9_]{2,30}$
 
-# Regular expression matching correct constant names
-const-rgx=(([A-Z_][A-Z0-9_]*)|(__.*__))$
+# Regular expression matching correct method names
+method-rgx=[a-z_][a-z0-9_]{2,30}$
 
-# Naming hint for constant names
-const-name-hint=(([A-Z_][A-Z0-9_]*)|(__.*__))$
+# Naming hint for method names
+method-name-hint=[a-z_][a-z0-9_]{2,30}$
+
+# Regular expression matching correct module names
+module-rgx=(([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$
+
+# Naming hint for module names
+module-name-hint=(([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$
+
+# Regular expression matching correct variable names
+variable-rgx=[a-z_][a-z0-9_]{2,30}$
+
+# Naming hint for variable names
+variable-name-hint=[a-z_][a-z0-9_]{2,30}$
+
+# Regular expression matching correct attribute names
+attr-rgx=[a-z_][a-z0-9_]{2,30}$
+
+# Naming hint for attribute names
+attr-name-hint=[a-z_][a-z0-9_]{2,30}$
 
 # Regular expression matching correct inline iteration names
 inlinevar-rgx=[A-Za-z_][A-Za-z0-9_]*$
 
 # Naming hint for inline iteration names
 inlinevar-name-hint=[A-Za-z_][A-Za-z0-9_]*$
+
+# Regular expression matching correct function names
+function-rgx=[a-z_][a-z0-9_]{2,30}$
+
+# Naming hint for function names
+function-name-hint=[a-z_][a-z0-9_]{2,30}$
+
+# Regular expression matching correct constant names
+const-rgx=(([A-Z_][A-Z0-9_]*)|(__.*__))$
+
+# Naming hint for constant names
+const-name-hint=(([A-Z_][A-Z0-9_]*)|(__.*__))$
 
 # Regular expression matching correct class attribute names
 class-attribute-rgx=([A-Za-z_][A-Za-z0-9_]{2,30}|(__.*__))$

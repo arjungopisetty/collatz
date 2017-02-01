@@ -1,3 +1,70 @@
+commit 22a07b7bb3b034b7553cc9b45f6b6590cab0d261
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 15:28:43 2017 -0600
+
+    Revert to 05abdaed9da1d1c0b3a90c1f3023c9a9d945b1c7
+
+commit 932ac43f1fef04a60f0009d871d56fcec9f34ede
+Merge: 8b04b86 8f11cb4
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 15:26:06 2017 -0600
+
+    Merge branch 'dev' of https://github.com/arjungopisetty/collatz into dev
+
+commit 8b04b86775102a657adc26f7e7d912807faf66d8
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 15:25:02 2017 -0600
+
+    Fixing failed travis build by removing gitignore application. Unresolved #14
+
+commit 8f11cb4ccbaec9216e41185f0bc752fca2ff8c48
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 15:04:49 2017 -0600
+
+    Removed extra files from repo. Resolves #12
+
+commit 05abdaed9da1d1c0b3a90c1f3023c9a9d945b1c7
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 14:59:56 2017 -0600
+
+    Wrote unit tests with coverage. Resolves #11
+
+commit 77894dff1dda66d261034e3a992e4aca212b95ff
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Tue Jan 31 21:55:04 2017 -0600
+
+    Final optimizations to meta cache solution
+
+commit aeb2c3f7755f28d0a9d9ab81ca013ba9c1a58a59
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Tue Jan 31 14:09:45 2017 -0600
+
+    Meta cache implemented; still too slow
+
+commit 0f33da85132d004b359e933b374204df6281b88d
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Tue Jan 31 13:33:50 2017 -0600
+
+    reversed list optimization
+
+commit 108ee3b6ca32c8ce9b48600026950fc324f612ac
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Tue Jan 31 13:11:48 2017 -0600
+
+    Optimizations made to cycle length method
+
+commit 429ac7abe6e726f1d17f37863451a3e2d722c403
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Sun Jan 29 16:27:33 2017 -0600
+
+    simple solution added
+
+commit 8909a4ff517d9cf75ec432c821b5fe384ec93755
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Sun Jan 29 14:47:36 2017 -0600
+
+    changed inital files to just collatz and added Travis file
+
 commit a81d1ef394d9f680af4f020b3edab53c5c1a5f65
 Author: Arjun Gopisetty <arjung@cs.utexas.edu>
 Date:   Sun Jan 29 14:18:16 2017 -0600
