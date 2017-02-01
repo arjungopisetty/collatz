@@ -7,3 +7,5 @@ collatz-tests
 Icon?
 RunCollatz.tmp
 TestCollatz.tmp
+GenerateRanges.py
+GenerateRanges.py~
