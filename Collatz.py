@@ -3,6 +3,7 @@
 # pylint: disable = bad-whitespace
 # pylint: disable = invalid-name
 # pylint: disable = missing-docstring
+# pylint: disable = line-too-long
 
 # ---------------------------
 # projects/collatz/Collatz.py
@@ -44,7 +45,7 @@ def collatz_eval(n):
     counter = 1
 
     # Handle the largest case in the cache. Helps with time.
-    if (n >= 3732423):
+    if n >= 3732423:
         return 3732423
 
     # Loop though the cache until the cache[number] is greater than n, then

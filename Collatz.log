@@ -1,3 +1,33 @@
+commit 14de2ac6b3cc1209ffdf13ed032b1a935cfdfd75
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 16:57:54 2017 -0600
+
+    Added to gitignore
+
+commit 43f3204ab004cee160369c5d19d057297b31f23d
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 16:55:46 2017 -0600
+
+    Removed extra files from git. Resolves #12.
+
+commit 93dc20707a3c789f568c5c37452645f85a1d0ef5
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 16:45:56 2017 -0600
+
+    Ran autopep8. Resolves #3
+
+commit 26a8677aded1e86327b16f7b39f29ca290688e97
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 16:42:28 2017 -0600
+
+    Added inline comments to Collatz.py. Resolves #8
+
+commit ac0bc30432d46d11d0d798d563c654d38cbcb52e
+Author: Arjun Gopisetty <arjung@cs.utexas.edu>
+Date:   Wed Feb 1 16:36:46 2017 -0600
+
+    Added in acceptance tests
+
 commit 22a07b7bb3b034b7553cc9b45f6b6590cab0d261
 Author: Arjun Gopisetty <arjung@cs.utexas.edu>
 Date:   Wed Feb 1 15:28:43 2017 -0600
